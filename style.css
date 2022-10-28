@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #3d1010;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+input,label{
+    margin-bottom: 10px;
+}
+main{
+    background-color: #140505;
+    padding: 20px;
+    border-radius: 5px;
+}
+input[type=text],input[type=number],input[type=email],input[type=password]{
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    padding: 4px;
+    background-color:  #990000;
+    border-bottom: 2px solid #333;
+    color: #fff;
+}
+input[type=radio]:checked{
+    background-color: #990000;
+}
+button, input[type=reset]{
+    padding: 5px 10px;
+    background-color:  #990000;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+    color: #ff00ff;
+}
+
+h1,p{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.main input{
+    width: 100%;
+}
+.main input::placeholder{
+    color: #fff;
+    padding-left: 20px;
+}
+h5{
+    text-align: center;
+    text-transform: uppercase;
+}
+.forgot{
+    display: block;
+    text-align: right;
+    margin-bottom: 10px;
+}
+.main button,.s-main button{
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.main img{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.s-main{
+    padding: 20px 80px;
+}
+.s-main img{
+    display: block;
+    width: 60px;
+    margin: 10px auto;
+}
